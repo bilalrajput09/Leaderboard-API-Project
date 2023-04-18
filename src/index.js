@@ -11,9 +11,9 @@ const refreshBtn = document.querySelector('.refresh');
 const scoreConatiner = document.querySelector('.item_container');
 
 submitBtn.addEventListener('click', (e) => {
-    e.preventDefault();
-    if (nameInput.value !== '' && scoreInput.value !== '') addScore(gameID, nameInput.value, scoreInput.value);
-    resetInputs(nameInput, scoreInput);
+  e.preventDefault();
+  if (nameInput.value !== '' && scoreInput.value !== '') addScore(gameID, nameInput.value, scoreInput.value);
+  resetInputs(nameInput, scoreInput);
 });
 refreshBtn.addEventListener('click', async () => renderRecentScores(gameID, scoreConatiner));
 
