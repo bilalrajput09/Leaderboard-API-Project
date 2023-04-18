@@ -1,20 +1,20 @@
-const addScore = async (gameID) => {
+const addScore = async (gameID, userName, score) => {
   const response = await fetch(
     `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameID}/scores`,
     {
-      method: "POST",
+      method: 'POST',
       headers: {
-        "Content-Type": "application/json",
+        'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        user: "Bilal",
-        score: 42,
+        user: userName,
+        score,
       }),
-    }
+    },
   );
 
   const data = await response.json();
-  console.log(data);
+  return data;
 };
 
 export default addScore;
