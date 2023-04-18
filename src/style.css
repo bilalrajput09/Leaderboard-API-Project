@@ -5,6 +5,8 @@
 }
 
 body {
+  background-color: rgb(20, 19, 19);
+  color: white;
   font-family:
     "Trebuchet MS",
     "Lucida Sans Unicode",
@@ -90,4 +92,20 @@ input {
 
 .submit {
   padding: 0.3em;
+}
+
+footer {
+  font-weight: 700;
+  width: 80%;
+  padding: 0.1em 3em;
+}
+
+.items:nth-of-type(even) {
+  background-color: white;
+  color: black;
+}
+
+.btn:hover {
+  background-color: green;
+  color: white;
 }
