@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>To Do list: list structure</b></h3>
+  <h3><b>Leaderboard App</b></h3>
 
 </div>
 
@@ -11,7 +11,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[To-Do-List\] ](#-to-do-list-)
+- [📖 \[Leaderboard-App\] ](#-leaderboard-app-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -28,9 +28,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [To-Do-List] <a name="about-project"></a>
+# 📖 [Leaderboard] <a name="about-project"></a>
 
-**[To Do list: ]** is a webpage for managing and displaying tasks. Its a project where i test my javascript and webpack programming skills.
+**[Leaderboard: ]** is a webpage which uses api to store and render scores.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -55,26 +55,25 @@
     <li><a href="https://webpack.js.org/concepts/">Webpack</a></li>
   </ul>
 </details>
+<details>
+  <summary>Leaderboard Api</summary>
+  <ul>
+    <li><a href="#">Leaderboard Api</a></li>
+  </ul>
+</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[local storage]**
-- **[Edit_&_delete]**
-- **[Filter_drag_&_drop]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo](https://bilalrajput09.github.io/first_capstone_project_concert_webpage/)
+- **[Api]**
+- **[Render-scores]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Screenshot <a name="screenshot"></a>
 
-![image](./src/assests/Capture.JPG)
+![image](./src/assets/screenshot1.JPG)
 
 <!-- GETTING STARTED -->
 
@@ -98,7 +97,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/bilalrajput09/To-Do-List-ES6.git
+  git clone https://github.com/bilalrajput09/Leaderboard-API-Project.git
 ```
 
 ### Usage
