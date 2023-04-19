@@ -96,8 +96,10 @@ input {
 
 footer {
   font-weight: 700;
-  width: 80%;
-  padding: 0.1em 3em;
+  width: 100%;
+  padding: 0.1em 4em;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 .items:nth-of-type(even) {

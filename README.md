@@ -73,7 +73,7 @@
 
 ## 🚀 Screenshot <a name="screenshot"></a>
 
-![image](./src/assets/Screenshot%202023-04-18%20200149.png)
+![image](./src/assets/screenshot1.JPG)
 
 <!-- GETTING STARTED -->
 
